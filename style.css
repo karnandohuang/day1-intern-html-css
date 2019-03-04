@@ -1,0 +1,133 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar{
+    width: 200px;
+    height: 100%;
+    background-color: #663399;
+    box-shadow: 10px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 50px 50px 0px;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.menu{
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.inside-container{
+    margin-left: 200px;
+    margin-right: 25px;
+    height: 100%;
+    width: 79%;
+    display: inline-block;
+}
+
+.title{
+    margin: 30px 10px 10px 30px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+li{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-weight:bold;
+}
+
+h1{
+    color: #828282;
+}
+
+.main-container{
+    overflow-y: scroll;
+    margin: 15px 0 0 30px;
+}
+
+.card{
+    width: 90%;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin: 10px 2px 10px 2px;
+    padding: 25px;
+    color: #828282;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-post{
+    height: 200px;
+}
+
+.card-user{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-status{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin: 20px 0 10px 0;
+}
+
+button{
+    background-color: #663399;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+.align-right{
+    float: right;
+}

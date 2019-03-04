@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .login-container {
+            text-align: center;
+        }
+
+        .login-box {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 10px;
+            width: 600px;
+            height: 425px;
+            border: 1px solid rgba(130, 130, 130, 0.5);
+            box-sizing: border-box;
+            border-radius: 15px;
+        }
+
+        .input-form {
+            color: #828282;
+            padding: 10px 20px 10px 20px;
+            margin: 20px;
+            width: 100%;
+            text-align: left;
+        }
+
+        input[type=text] {
+            width: 450px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-bottom: 2px solid #663399;
+            font-size: 17px;
+            color: #505050;
+        }
+
+        input[type=password] {
+            width: 450px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: none;
+            border-bottom: 2px solid #663399;
+            font-size: 17px;
+            color: #505050;
+        }
+
+        .login-button {
+            background-color: #663399;
+            color: white;
+            padding: 14px 20px;
+            width: 150px;
+            height: 50px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 28px;
+            font-size: 17px;
+            text-decoration: none;
+
+        }
+
+        .login-button:hover {
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+
+        }
+
+        .login-button:active {
+            position: relative;
+            top: 1px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Login</h1>
+
+            <div class="input-form">
+                <div>Email</div>
+                <input type="text">
+            </div>
+
+            <div class="input-form">
+                <div>Password</div>
+                <input type="password">
+            </div>
+            <div>
+                <a href="home.html">
+                    <button class="login-button">
+                        Log in
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
